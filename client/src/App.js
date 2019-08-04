@@ -37,7 +37,7 @@ class App extends Component {
   }
   render() {
     return (
-      <Provider store={store} basename="/Home_Service_V1.1/">
+      <Provider store={store}>
         <AppNavbar />
         <div className="content">
           <Switch>
