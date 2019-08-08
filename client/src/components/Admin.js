@@ -14,7 +14,7 @@ class Admin extends Component {
             <Link to="/ViewAllAppointments">Appointments</Link>
           </a>
         </div>
-        <h1 style={{ marginLeft: "30%" }}>WELCOME TO ADMIN PANNEL</h1>
+        <h1 style={{ marginLeft: "30%" }}>WELCOME TO ADMIN PANEL</h1>
         <div className="main" />
       </div>
     );
