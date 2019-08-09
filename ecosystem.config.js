@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:vives/HOMELY',
       path: '/home/ubuntu/Home_Service',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'concurrently \"npm run server\" \"npm run client\ && pm2 startOrRestart ecosystem.config.js'
     }
   }
 }	
