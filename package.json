@@ -14,6 +14,10 @@
   },
   "author": "vives",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vives/HOMELY/issues"
+  },
+  "homepage": "https://github.com/vives/HOMELY#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.3.1",
