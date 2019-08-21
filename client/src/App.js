@@ -15,7 +15,6 @@ import MakeAnappo from "./components/MakeAnappo";
 import ViewAllUsers from "./components/ViewAllUsers";
 import AdminNavBar from "./components/AdminNavBar";
 import ViewAllAppointments from "./components/ViewAllAppointments";
-import UserProfile from "./components/UserProfile";
 import Admin from "./components/Admin";
 
 import "./App.css";
@@ -23,7 +22,6 @@ import "./components/assets/css/css/bootstrap.css";
 import "./components/assets/css/css/bootstrap.min.css";
 import "./components/assets/css/css/custom.css";
 import "./components/assets/css/css/animate.min.css";
-import "./components/assets/css/css/userProfile.css";
 
 import $ from "jquery";
 window.jQuery = $;
@@ -56,7 +54,7 @@ class App extends Component {
               exact
               component={ViewAllAppointments}
             />
-            <Route path="/UserProfile" exact component={UserProfile} />
+            
             <Redirect to="/not-found" />
           </Switch>
         </div>
